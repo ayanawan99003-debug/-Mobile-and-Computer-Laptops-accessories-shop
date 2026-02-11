@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accessories Shop</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+.navbar {
+  background: #0d6efd;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.card {
+  background: white;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.price {
+  color: green;
+  font-weight: bold;
+  margin: 10px 0;
+}
+button {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #0b5ed7;
+}
+.form-box {
+  background: white;
+  width: 300px;
+  margin: 30px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px;
+}
+.footer {
+  background: #0d6efd;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">Accessories Shop</div>
+
+<div class="container">
+
+<h2>Latest Accessories</h2>
+<p>Best quality computer and mobile accessories at affordable prices.</p>
+
+<div class="cards">
+
+<div class="card">
+<img src="keyboard.jpg" alt="Keyboard">
+<h3>Keyboard</h3>
+<p class="price">Rs 2,500</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="mouse.jpg" alt="Mouse">
+<h3>Mouse</h3>
+<p class="price">Rs 1,500</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="charger.jpg" alt="Charger">
+<h3>Mobile Charger</h3>
+<p class="price">Rs 800</p>
+<button>Buy Now</button>
+</div>
+
+</div>
+
+<div class="form-box">
+<h3>Order Now</h3>
+<input type="text" placeholder="Your Name"><br>
+<input type="text" placeholder="Product Name"><br>
+<input type="text" placeholder="Address"><br>
+<input type="text" placeholder="Phone Number"><br>
+<button>Submit</button>
+</div>
+
+</div>
+
+<div class="footer">
+Owner: M. Ahmed | Phone: 0325-2709545 | Karachi
+</div>
+
+</body>
+</html>
